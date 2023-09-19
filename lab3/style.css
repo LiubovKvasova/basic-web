@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(244, 238, 223);
+}
+
+.btn {
+  margin-top: 2rem;
+  margin-left: 45vw;
+}
+
+#get-data {
+  display: block;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  border-color: rgb(44, 8, 39);
+  background-color: rgb(149, 126, 174);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#get-data:hover {
+  background-color: rgb(121, 68, 119);
+  transition: all 0.3s ease;
+}
+
+.users {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3rem 5rem;
+}
+
+.user {
+  width: 9rem;
+  margin: 3rem;
+  padding: 2rem;
+  background-color:rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.user:hover {
+  scale: 1.1;
+  transition: all 0.3s ease;
+}
