@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color:#2d4e2f;
+}
+
+#message-container {
+  width: 80%;
+  max-width: 1200px;
+}
+
+#message-container div {
+  background-color: #cff7f8;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: max-content;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #ffffaa;
+}
+
+#send-container {
+  position: fixed;
+  padding: 20px;
+  margin-bottom: 30px;
+  bottom: 0;
+  background-color: rgb(203, 252, 206);
+  border-radius: 10px;
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+}
+
+#send-button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #0d1b46;
+  color: #ffffaa;
+  border-radius: 10px;
+}
+
+#message-input {
+  flex-grow: 1;
+  font-size: large;
+}
+
+#message-container div.service-message {
+  margin: auto;
+  margin-top: 10px;
+  background-color:#bada55;
+}
